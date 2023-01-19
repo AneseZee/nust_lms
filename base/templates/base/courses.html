@@ -1,14 +1,18 @@
+{% extends 'main.html' %}
 
-<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+{% block content %}
+
+    <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+        <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+            <caption
+                    class="p-5 text-lg font-semibold text-left text-gray-900 bg-white dark:text-white dark:bg-gray-800">
+                Our products
+                <p class="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400">Browse a list of Flowbite products
+                    designed to help you work and play, stay organized, get answers, keep in touch, grow your business,
+                    and more.</p>
+            </caption>
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
             <tr>
-                <th scope="col" class="p-4">
-                    <div class="flex items-center">
-                        <input id="checkbox-all" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                        <label for="checkbox-all" class="sr-only">checkbox</label>
-                    </div>
-                </th>
                 <th scope="col" class="px-6 py-3">
                     Product name
                 </th>
@@ -22,6 +26,7 @@
                     Price
                 </th>
                 <th scope="col" class="px-6 py-3">
+<<<<<<< HEAD
                     Action
                 </th>
             </tr>
@@ -34,6 +39,14 @@
                         <label for="checkbox-table-1" class="sr-only">checkbox</label>
                     </div>
                 </td>
+=======
+                    <span class="sr-only">Edit</span>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+>>>>>>> a48c827e8bc6b52f9dc594a16fc79d5f970d3893
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Apple MacBook Pro 17"
                 </th>
@@ -46,6 +59,7 @@
                 <td class="px-6 py-4">
                     $2999
                 </td>
+<<<<<<< HEAD
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                 </td>
@@ -57,6 +71,13 @@
                         <label for="checkbox-table-2" class="sr-only">checkbox</label>
                     </div>
                 </td>
+=======
+                <td class="px-6 py-4 text-right">
+                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                </td>
+            </tr>
+            <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+>>>>>>> a48c827e8bc6b52f9dc594a16fc79d5f970d3893
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Microsoft Surface Pro
                 </th>
@@ -69,6 +90,7 @@
                 <td class="px-6 py-4">
                     $1999
                 </td>
+<<<<<<< HEAD
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                 </td>
@@ -80,6 +102,13 @@
                         <label for="checkbox-table-3" class="sr-only">checkbox</label>
                     </div>
                 </td>
+=======
+                <td class="px-6 py-4 text-right">
+                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                </td>
+            </tr>
+            <tr class="bg-white dark:bg-gray-800">
+>>>>>>> a48c827e8bc6b52f9dc594a16fc79d5f970d3893
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                     Magic Mouse 2
                 </th>
@@ -92,6 +121,7 @@
                 <td class="px-6 py-4">
                     $99
                 </td>
+<<<<<<< HEAD
                 <td class="px-6 py-4">
                     <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                 </td>
@@ -168,3 +198,14 @@
         </tbody>
     </table>
 </div>
+=======
+                <td class="px-6 py-4 text-right">
+                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}
+>>>>>>> a48c827e8bc6b52f9dc594a16fc79d5f970d3893

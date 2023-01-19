@@ -30,6 +30,16 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# tailwind
+TAILWIND_APP_NAME = 'theme'
+TAILWIND_CSS_PATH = 'css/dist/styles.css'
+INTERNAL_IPS = [
+    "127.0.0.1",
+]
+
+# npm bin path
+NPM_BIN_PATH = r'C:\Program Files\nodejs\npm.cmd'
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,10 +49,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
     'tailwind',    
     'theme',   
     'django_browser_reload',
     'base.apps.BaseConfig'
+=======
+
+    'base.apps.BaseConfig',
+
+    'tailwind',
+    'theme',
+    'django_browser_reload'
+>>>>>>> a48c827e8bc6b52f9dc594a16fc79d5f970d3893
 ]
 
 MIDDLEWARE = [
@@ -61,7 +80,12 @@ ROOT_URLCONF = 'nust_lms.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< HEAD
         'DIRS': [BASE_DIR / 'templates', BASE_DIR / 'base/templates/base'],
+=======
+        'DIRS': [BASE_DIR / 'templates', BASE_DIR / 'base/templates/base']
+        ,
+>>>>>>> a48c827e8bc6b52f9dc594a16fc79d5f970d3893
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

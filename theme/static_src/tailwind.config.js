@@ -11,7 +11,11 @@ module.exports = {
          * HTML. Paths to Django template files that will contain Tailwind CSS classes.
          */
 
+<<<<<<< HEAD
         /*  Templates within theme app (<tailwind_app_name>/templates), e.g. base.html. */
+=======
+        /*  Templates within theme app (<tailwind_app_name>/templates), e.g. main.html. */
+>>>>>>> a48c827e8bc6b52f9dc594a16fc79d5f970d3893
         '../templates/**/*.html',
 
         /*
